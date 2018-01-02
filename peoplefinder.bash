@@ -12,6 +12,7 @@ read fname
 
 if [ -z $fname ]; then 
   echo "Please enter your first name";
+  exit 1
 fi
 
 echo -n "Enter middle name, if available:  "
