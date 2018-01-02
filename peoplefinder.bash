@@ -29,6 +29,7 @@ fi
 
 echo
 read -p "Press <Enter> key to continue"
+echo -n "Performing recon on ${fname} ${lname}"
 cd /Applications/Google\ Chrome.app/
 cd Contents/MacOS/
 ./Google\ Chrome -new-tab http://www.pipl.com/search/?q=$fname+$lname/ & 
